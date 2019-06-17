@@ -1,0 +1,15 @@
+{
+  "name": "google-drive-js",
+  "version": "1.0.0",
+  "description": "Simplified JS API to work with Google Drive.",
+  "main": "index.js",
+  "scripts": {
+    "docs": "jsdoc2md index.js > docs.md && echo Docs written to docs.md",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "darthvanger@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "jsdoc-to-markdown": "^5.0.0"
+  }
+}
