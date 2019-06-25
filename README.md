@@ -4,11 +4,16 @@
 const folderId = await googleDriveApiSimple.createDirectory('my new folder');
 
 // create a text file
-const textFileId = await googleDriveApiSimple.createTextFile({ filename: 'something.txt', content: 'a brand new text file');
-```
+const textFileId = await googleDriveApiSimple.createTextFile({
+  filename: 'something.txt',
+  content: 'a brand new text file',
+});
 
 // create a json file
-const configFileId = await googleDriveApiSimple.createTextFile({ filename: 'app-config.json', content: '{ userLanguage: "en-us" }');
+const configFileId = await googleDriveApiSimple.createTextFile({
+  filename: 'app-config.json',
+  content: '{ userLanguage: "en-us" }',
+});
 ```
 
 ## Install and init
