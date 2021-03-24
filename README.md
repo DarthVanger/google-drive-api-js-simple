@@ -1,6 +1,6 @@
 # Simplified Google Drive Api client
 ```
-// create a new directory easy
+// create a new folder
 const folderId = await googleDriveApiSimple.createDirectory('my new folder');
 
 // create a text file
@@ -34,7 +34,7 @@ const gapi = window.gapi;
 // Init passing the google api dependency
 const googleDriveApiSimple = new googleDriveApiSimple({ gapi });
 
-// create a new directory
+// create a new folder
 const folderId = await googleDriveApiSimple.createDirectory('my new folder');
 ```
 
